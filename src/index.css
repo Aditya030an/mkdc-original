@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  background-color: #f5f2ef ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.scroll-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox */
+.scroll-hidden {
+  scrollbar-width: none;
+}
+
+/* Internet Explorer and Edge */
+.scroll-hidden {
+  -ms-overflow-style: none;
+}
