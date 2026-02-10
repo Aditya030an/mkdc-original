@@ -1450,188 +1450,188 @@ export const propertyList=[
     location: "Goa",
     date: 2024,
   },
-   {
-    id: "29-hemant-singhal",
-    name: "Hamant Singhal",
-    type: "houses",
-    description:
-      "Nestled in the heart of Goa, a stunning villa redefines tropical slow living with a seamless blend of traditional Goan design and contemporary elegance. Finished in warm laterite, this luxurious retreat captures the essence of Goa's rich heritage while embracing modern lines and bespoke interiors.",
-    coverImage: "/Images/PROJECTS/29-HEMANT SINGHAL/FRONT.jpg",
-    image: [
-      {
-        id: "img1",
-        imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/1.jpg",
-      },
-      {
-        id: "img2",
-        imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/2.jpg",
-      },
-      {
-        id: "img3",
-        imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/3.jpg",
-      },
-      {
-        id: "img4",
-        imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/4.jpg",
-      },
-      {
-        id: "img5",
-        imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/5.jpg",
-      },
-      {
-        id: "img6",
-        imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/6.jpg",
-      },
-    ],
-    propertyArea: 16000,
-    location: "Goa",
-    date: 2024,
-  },
-   {
-    id: "33-narayan-agrawal",
-    name: "Narayan Agrawal",
-    type: "houses",
-    description:
-      "Nestled in the heart of Goa, a stunning villa redefines tropical slow living with a seamless blend of traditional Goan design and contemporary elegance. Finished in warm laterite, this luxurious retreat captures the essence of Goa's rich heritage while embracing modern lines and bespoke interiors.",
-    coverImage: "/Images/PROJECTS/33-NARAYAN AGRAWAL/FRONT.jpg",
-    image: [
-      {
-        id: "img1",
-        imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/1.jpg",
-      },
-      {
-        id: "img2",
-        imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/2.jpg",
-      },
-      {
-        id: "img3",
-        imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/3.jpg",
-      },
-      {
-        id: "img4",
-        imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/4.jpg",
-      },
-      {
-        id: "img5",
-        imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/5.jpg",
-      },
-      {
-        id: "img6",
-        imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/6.jpg",
-      },
-      {
-        id: "img7",
-        imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/7.jpg",
-      },
-      {
-        id: "img8",
-        imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/8.jpg",
-      },
-      {
-        id: "img9",
-        imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/9.jpg",
-      },
-    ],
-    propertyArea: 16000,
-    location: "Goa",
-    date: 2024,
-  },
-    {
-    id: "37-chaitnya-jaiswal",
-    name: "Chaitnya Jaiswal",
-    type: "houses",
-    description:
-      "Nestled in the heart of Goa, a stunning villa redefines tropical slow living with a seamless blend of traditional Goan design and contemporary elegance. Finished in warm laterite, this luxurious retreat captures the essence of Goa's rich heritage while embracing modern lines and bespoke interiors.",
-    coverImage: "/Images/PROJECTS/37-CHAITNYA JAISWAL/FRONT.jpg",
-    image: [
-      {
-        id: "img1",
-        imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/1.jpg",
-      },
-      {
-        id: "img2",
-        imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/2.jpg",
-      },
-      {
-        id: "img3",
-        imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/3.jpg",
-      },
-      {
-        id: "img4",
-        imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/4.jpg",
-      },
-      {
-        id: "img5",
-        imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/5.jpg",
-      },
-      {
-        id: "img6",
-        imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/6.jpg",
-      },
-      {
-        id: "img7",
-        imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/7.jpg",
-      },
-      {
-        id: "img8",
-        imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/8.jpg",
-      },
-      {
-        id: "img9",
-        imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/9.jpg",
-      },
-    ],
-    propertyArea: 16000,
-    location: "Goa",
-    date: 2024,
-  },
-   {
-    id: "41-hemant-chhabariya",
-    name: "Hemant Chhabariya",
-    type: "houses",
-    description:
-      "Nestled in the heart of Goa, a stunning villa redefines tropical slow living with a seamless blend of traditional Goan design and contemporary elegance. Finished in warm laterite, this luxurious retreat captures the essence of Goa's rich heritage while embracing modern lines and bespoke interiors.",
-    coverImage: "/Images/PROJECTS/41-HEMANT CHHABARIYA/FRONT.jpg",
-    image: [
-      {
-        id: "img1",
-        imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/1.jpg",
-      },
-      {
-        id: "img2",
-        imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/2.jpg",
-      },
-      {
-        id: "img3",
-        imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/3.jpg",
-      },
-      {
-        id: "img4",
-        imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/4.jpg",
-      },
-      {
-        id: "img5",
-        imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/5.jpg",
-      },
-      {
-        id: "img6",
-        imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/6.jpg",
-      },
-      {
-        id: "img7",
-        imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/7.jpg",
-      },
-      {
-        id: "img8",
-        imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/8.jpg",
-      },
-      {
-        id: "img9",
-        imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/9.jpg",
-      },
-    ],
-    propertyArea: 16000,
-    location: "Goa",
-    date: 2024,
-  },
+  //  {
+  //   id: "29-hemant-singhal",
+  //   name: "Hamant Singhal",
+  //   type: "houses",
+  //   description:
+  //     "Nestled in the heart of Goa, a stunning villa redefines tropical slow living with a seamless blend of traditional Goan design and contemporary elegance. Finished in warm laterite, this luxurious retreat captures the essence of Goa's rich heritage while embracing modern lines and bespoke interiors.",
+  //   coverImage: "/Images/PROJECTS/29-HEMANT SINGHAL/FRONT.jpg",
+  //   image: [
+  //     {
+  //       id: "img1",
+  //       imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/1.jpg",
+  //     },
+  //     {
+  //       id: "img2",
+  //       imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/2.jpg",
+  //     },
+  //     {
+  //       id: "img3",
+  //       imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/3.jpg",
+  //     },
+  //     {
+  //       id: "img4",
+  //       imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/4.jpg",
+  //     },
+  //     {
+  //       id: "img5",
+  //       imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/5.jpg",
+  //     },
+  //     {
+  //       id: "img6",
+  //       imageUrl: "/Images/PROJECTS/29-HEMANT SINGHAL/6.jpg",
+  //     },
+  //   ],
+  //   propertyArea: 16000,
+  //   location: "Goa",
+  //   date: 2024,
+  // },
+  //  {
+  //   id: "33-narayan-agrawal",
+  //   name: "Narayan Agrawal",
+  //   type: "houses",
+  //   description:
+  //     "Nestled in the heart of Goa, a stunning villa redefines tropical slow living with a seamless blend of traditional Goan design and contemporary elegance. Finished in warm laterite, this luxurious retreat captures the essence of Goa's rich heritage while embracing modern lines and bespoke interiors.",
+  //   coverImage: "/Images/PROJECTS/33-NARAYAN AGRAWAL/FRONT.jpg",
+  //   image: [
+  //     {
+  //       id: "img1",
+  //       imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/1.jpg",
+  //     },
+  //     {
+  //       id: "img2",
+  //       imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/2.jpg",
+  //     },
+  //     {
+  //       id: "img3",
+  //       imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/3.jpg",
+  //     },
+  //     {
+  //       id: "img4",
+  //       imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/4.jpg",
+  //     },
+  //     {
+  //       id: "img5",
+  //       imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/5.jpg",
+  //     },
+  //     {
+  //       id: "img6",
+  //       imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/6.jpg",
+  //     },
+  //     {
+  //       id: "img7",
+  //       imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/7.jpg",
+  //     },
+  //     {
+  //       id: "img8",
+  //       imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/8.jpg",
+  //     },
+  //     {
+  //       id: "img9",
+  //       imageUrl: "/Images/PROJECTS/33-NARAYAN AGRAWAL/9.jpg",
+  //     },
+  //   ],
+  //   propertyArea: 16000,
+  //   location: "Goa",
+  //   date: 2024,
+  // },
+  //   {
+  //   id: "37-chaitnya-jaiswal",
+  //   name: "Chaitnya Jaiswal",
+  //   type: "houses",
+  //   description:
+  //     "Nestled in the heart of Goa, a stunning villa redefines tropical slow living with a seamless blend of traditional Goan design and contemporary elegance. Finished in warm laterite, this luxurious retreat captures the essence of Goa's rich heritage while embracing modern lines and bespoke interiors.",
+  //   coverImage: "/Images/PROJECTS/37-CHAITNYA JAISWAL/FRONT.jpg",
+  //   image: [
+  //     {
+  //       id: "img1",
+  //       imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/1.jpg",
+  //     },
+  //     {
+  //       id: "img2",
+  //       imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/2.jpg",
+  //     },
+  //     {
+  //       id: "img3",
+  //       imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/3.jpg",
+  //     },
+  //     {
+  //       id: "img4",
+  //       imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/4.jpg",
+  //     },
+  //     {
+  //       id: "img5",
+  //       imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/5.jpg",
+  //     },
+  //     {
+  //       id: "img6",
+  //       imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/6.jpg",
+  //     },
+  //     {
+  //       id: "img7",
+  //       imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/7.jpg",
+  //     },
+  //     {
+  //       id: "img8",
+  //       imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/8.jpg",
+  //     },
+  //     {
+  //       id: "img9",
+  //       imageUrl: "/Images/PROJECTS/37-CHAITNYA JAISWAL/9.jpg",
+  //     },
+  //   ],
+  //   propertyArea: 16000,
+  //   location: "Goa",
+  //   date: 2024,
+  // },
+  //  {
+  //   id: "41-hemant-chhabariya",
+  //   name: "Hemant Chhabariya",
+  //   type: "houses",
+  //   description:
+  //     "Nestled in the heart of Goa, a stunning villa redefines tropical slow living with a seamless blend of traditional Goan design and contemporary elegance. Finished in warm laterite, this luxurious retreat captures the essence of Goa's rich heritage while embracing modern lines and bespoke interiors.",
+  //   coverImage: "/Images/PROJECTS/41-HEMANT CHHABARIYA/FRONT.jpg",
+  //   image: [
+  //     {
+  //       id: "img1",
+  //       imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/1.jpg",
+  //     },
+  //     {
+  //       id: "img2",
+  //       imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/2.jpg",
+  //     },
+  //     {
+  //       id: "img3",
+  //       imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/3.jpg",
+  //     },
+  //     {
+  //       id: "img4",
+  //       imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/4.jpg",
+  //     },
+  //     {
+  //       id: "img5",
+  //       imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/5.jpg",
+  //     },
+  //     {
+  //       id: "img6",
+  //       imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/6.jpg",
+  //     },
+  //     {
+  //       id: "img7",
+  //       imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/7.jpg",
+  //     },
+  //     {
+  //       id: "img8",
+  //       imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/8.jpg",
+  //     },
+  //     {
+  //       id: "img9",
+  //       imageUrl: "/Images/PROJECTS/41-HEMANT CHHABARIYA/9.jpg",
+  //     },
+  //   ],
+  //   propertyArea: 16000,
+  //   location: "Goa",
+  //   date: 2024,
+  // },
 ];
