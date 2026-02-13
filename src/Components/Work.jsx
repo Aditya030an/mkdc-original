@@ -101,23 +101,23 @@ const Work = () => {
   );
 
   return (
-    <div className="flex bg-black/50">
+    <div className="flex bg-transparent">
       {/* Sidebar with progress tracker */}
-      <aside className="hidden md:flex items-center justify-between z-50 fixed bottom-0 left-0 h-[30px] w-full bg-black  border-r px-4 py-6 shadow-sm">
+      <aside className="hidden md:flex items-center justify-between z-50 fixed bottom-0 left-0 h-[30px] w-full bg-white  border-r px-4 py-6 shadow-sm">
         {allType.map((type, idx) => (
           <div
             key={idx}
-            className="flex items-center justify-center gap-2 w-full bg-black"
+            className="flex items-center justify-center gap-2 w-full bg-white"
           >
             <button
               onClick={() => handleScroll(type)}
-              className="text-sm font-semibold tracking-widest text-gray-400 hover:text-white transition-colors"
+              className="text-sm font-semibold tracking-widest text-gray-400 hover:text-black transition-colors"
             >
               {type.toUpperCase()}
             </button>
-            <div className="relative h-[2px] bg-gray-600 rounded-full w-full z-50">
+            <div className="relative h-[2px] bg-white rounded-full w-full z-50">
               <div
-                className="absolute left-0 top-0 h-full bg-white rounded-full transition-all duration-300"
+                className="absolute left-0 top-0 h-full bg-black rounded-full transition-all duration-300"
                 style={{ width: `${progress[type] || 0}%` }}
               ></div>
             </div>
@@ -126,9 +126,9 @@ const Work = () => {
       </aside>
 
       {/* Main content */}
-      <main className="flex-1 px-6 md:px-0 bg-black ">
+      <main className="flex-1 px-6 md:px-0 bg-white ">
         {/* Sections */}
-        <section ref={housesRef} className="mb-16 bg-black">
+        <section ref={housesRef} className="mb-16 bg-white">
           {/* <h1 className="text-center text-lg font-semibold tracking-widest text-white mb-6 bg-black">
             HOUSES
           </h1> */}
