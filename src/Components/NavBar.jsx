@@ -7,14 +7,14 @@ const NavBar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const linkStyle = (path) =>
-    `uppercase tracking-[0.25em] bg-black text-sm font-semibold transition-colors duration-200 ${
+    `uppercase tracking-[0.25em] bg-white text-sm font-semibold transition-colors duration-200 ${
       location.pathname === path
-        ? "text-white"
-        : "text-gray-400 hover:text-white"
+        ? "text-black"
+        : "text-gray-400 hover:text-black"
     }`;
 
   return (
-    <nav className="flex items-center justify-between bg-[#000000] py-4 px-6 w-full">
+    <nav className="flex items-center justify-between bg-white py-4 px-6 w-full">
       {/* Left menu */}
       <div className="hidden md:flex gap-12">
         <Link to="/" className={linkStyle("/")}>
@@ -23,14 +23,14 @@ const NavBar = () => {
       </div>
 
       {/* Center logo */}
-      <div className="text-xl md:text-2xl font-bold tracking-widest bg-black">
-        <Link to="/" className="text-white bg-black ">
+      <div className="text-xl md:text-2xl font-bold tracking-widest bg-white">
+        <Link to="/" className="text-black bg-white ">
           MKDC
         </Link>
       </div>
 
       {/* Right menu */}
-      <div className="hidden md:flex gap-12 bg-black">
+      <div className="hidden md:flex gap-12 bg-white">
         <Link to="/recognition" className={linkStyle("/recognition")}>
           Recognition
         </Link>

@@ -3,10 +3,10 @@ import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 
 const ContactSection = () => {
   return (
-    <div className="bg-[#0a0a0a] text-gray-300 font-sans py-12 px-6 md:px-20">
+    <div className="bg-white text-gray-800 font-sans py-12 px-6 md:px-20">
       <div className="max-w-4xl bg-transparent">
         <div className="bg-transparent mb-6 md:mb-0">
-          <h2 className="font-semibold tracking-wide text-lg mb-1 text-white bg-transparent">
+          <h2 className="font-semibold tracking-wide text-lg mb-1 text-black bg-transparent">
             MKDC STUDIO
           </h2>
           <p className="mb-6 leading-relaxed bg-transparent max-w-md">
@@ -17,8 +17,8 @@ const ContactSection = () => {
         </div>
 
         <div className="bg-transparent mb-6 md:mb-0">
-          <h2 className="font-semibold tracking-wide text-lg mb-1 text-white bg-transparent">
-            KDND STUDIO
+          <h2 className="font-semibold tracking-wide text-lg mb-1 text-black bg-transparent">
+            MKDC STUDIO
           </h2>
           <p className="mb-6 leading-relaxed bg-transparent max-w-md">
             Parle Product compound 3rd floor, Silo Bldg., V S Khendekar Marg,
@@ -28,26 +28,26 @@ const ContactSection = () => {
         </div>
 
         {/* Contact */}
-        <h2 className="font-semibold tracking-wide text-lg mb-1 text-white bg-transparent">
+        <h2 className="font-semibold tracking-wide text-lg mb-1 text-black bg-transparent">
           CONTACT
         </h2>
         <p className="mb-2 bg-transparent">+9122-46168796</p>
         <p className="mb-6 bg-transparent">+9122-26855983-4-5-6</p>
 
         {/* Enquiries */}
-        <h2 className="font-semibold tracking-wide text-lg mb-1 text-white bg-transparent">
+        <h2 className="font-semibold tracking-wide text-lg mb-1 text-black bg-transparent">
           Enquiries
         </h2>
         <p className="mb-6 bg-transparent">work@dnd.in</p>
 
         {/* Media */}
-        <h2 className="font-semibold tracking-wide text-lg mb-1 text-white bg-transparent">
+        <h2 className="font-semibold tracking-wide text-lg mb-1 text-black bg-transparent">
           Media
         </h2>
         <p className="mb-6 bg-transparent">news@dnd.in</p>
 
         {/* Work With Us */}
-        <h2 className="font-semibold tracking-wide text-lg mb-1 text-white bg-transparent">
+        <h2 className="font-semibold tracking-wide text-lg mb-1 text-black bg-transparent">
           Work With Us
         </h2>
         <p className="mb-6 bg-transparent">jobs@dnd.in</p>

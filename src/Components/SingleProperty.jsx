@@ -27,7 +27,7 @@ const SingleProperty = () => {
   }
 
   return (
-    <div className="w-full h-full bg-black">
+    <div className="w-full h-full ">
       {/* Hero Section */}
       {singleProperty?.coverImage && (
         <div className="relative w-full h-[70vh] lg:h-[90vh] overflow-hidden">
@@ -37,7 +37,7 @@ const SingleProperty = () => {
             className="w-full h-full object-cover"
             loading="lazy"
           />
-          <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center text-white">
+          <div className="absolute inset-0 bg-black/5 flex flex-col items-center justify-center text-center text-white">
             <h1 className="text-3xl md:text-5xl font-bold mb-3 bg-transparent">
               {singleProperty.name}
             </h1>
@@ -65,15 +65,15 @@ const SingleProperty = () => {
       )}
 
       {/* Description & second image */}
-      <div className="flex flex-col lg:flex-row items-start lg:items-end gap-10 justify-between px-6 lg:px-16 py-12 bg-black">
+      <div className="flex flex-col lg:flex-row items-start lg:items-end gap-10 justify-between px-6 lg:px-16 py-12 bg-white">
         {singleProperty?.description && (
-          <p className="lg:max-w-[40%] text-[15px] text-white leading-relaxed text-justify bg-black">
+          <p className="lg:max-w-[40%] text-[15px] text-black leading-relaxed text-justify bg-white">
             {singleProperty.description}
           </p>
         )}
 
         {singleProperty?.image?.[1]?.imageUrl && (
-          <div className="w-full lg:w-[55%] rounded-xl overflow-hidden shadow-md bg-black text-white">
+          <div className="w-full lg:w-[55%]  overflow-hidden shadow-md bg-white text-black">
             <img
               src={singleProperty.image[1].imageUrl}
               alt="secondImage"
@@ -85,9 +85,9 @@ const SingleProperty = () => {
       </div>
 
       {/* Third Image & Property Info */}
-      <div className="flex flex-col lg:flex-row items-start lg:items-center gap-12 justify-between px-6 lg:px-16 py-12 text-white bg-black">
+      <div className="flex flex-col lg:flex-row items-start lg:items-center gap-12 justify-between px-6 lg:px-16 py-12 text-black bg-white">
         {singleProperty?.image?.[2]?.imageUrl && (
-          <div className="w-full lg:w-[65%] rounded-xl overflow-hidden shadow-md">
+          <div className="w-full lg:w-[65%]  overflow-hidden shadow-md">
             <img
               src={singleProperty.image[2].imageUrl}
               alt="thirdImage"
@@ -97,29 +97,29 @@ const SingleProperty = () => {
           </div>
         )}
 
-        <div className="w-full lg:w-[30%] bg-gray-800 p-6 rounded-xl shadow-md flex flex-col gap-4">
+        <div className="w-full lg:w-[30%] bg-white p-6  shadow-md flex flex-col gap-4">
           {singleProperty?.name && (
-            <div className="bg-transparent bg-black">
-              <h4 className="font-semibold text-gray-500 bg-transparent bg-black">Property Name</h4>
-              <p className="text-white bg-transparent bg-black">{singleProperty.name}</p>
+            <div className="bg-transparent bg-white">
+              <h4 className="font-semibold text-gray-700 bg-transparent bg-white">Property Name</h4>
+              <p className="text-black bg-transparent bg-white">{singleProperty.name}</p>
             </div>
           )}
           {singleProperty?.location && (
-            <div className="bg-transparent bg-black">
-              <h4 className="font-semibold text-gray-500 bg-transparent bg-black">Location</h4>
-              <p className="text-white bg-transparent bg-black">{singleProperty.location}</p>
+            <div className="bg-transparent bg-white">
+              <h4 className="font-semibold text-gray-700 bg-transparent bg-white">Location</h4>
+              <p className="text-black bg-transparent bg-white">{singleProperty.location}</p>
             </div>
           )}
           {singleProperty?.date && (
-            <div className="bg-transparent bg-black">
-              <h4 className="font-semibold text-gray-500 bg-transparent bg-black">Date</h4>
-              <p className="text-white bg-transparent bg-black">{singleProperty.date}</p>
+            <div className="bg-transparent bg-white">
+              <h4 className="font-semibold text-gray-700 bg-transparent bg-white">Date</h4>
+              <p className="text-black bg-transparent bg-white">{singleProperty.date}</p>
             </div>
           )}
           {singleProperty?.propertyArea && (
-            <div className="bg-transparent bg-black">
-              <h4 className="font-semibold text-gray-500 bg-transparent bg-black">Property Area</h4>
-              <p className="text-white bg-transparent bg-black">{singleProperty.propertyArea} sq.ft</p>
+            <div className="bg-transparent bg-white">
+              <h4 className="font-semibold text-gray-700 bg-transparent bg-white">Property Area</h4>
+              <p className="text-black bg-transparent bg-white">{singleProperty.propertyArea} sq.ft</p>
             </div>
           )}
         </div>
@@ -127,14 +127,14 @@ const SingleProperty = () => {
 
       {/* Gallery */}
       {singleProperty?.image?.length > 3 && (
-        <div className="px-6 lg:px-16 py-12 bg-black">
-          <h2 className="text-xl font-semibold text-white bg-black mb-6">Gallery</h2>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 bg-black">
+        <div className="px-6 lg:px-16 py-12 bg-white">
+          <h2 className="text-xl font-semibold text-black bg-white mb-6">Gallery</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 bg-white">
             {singleProperty.image
               .filter((img, index) => img?.imageUrl && index > 2)
               .map((image, idx) => (
                 <div
-                  className="w-full h-[250px] sm:h-[300px] lg:h-[350px] rounded-xl overflow-hidden shadow-md"
+                  className="w-full h-[250px] sm:h-[300px] lg:h-[85vh] overflow-hidden shadow-md"
                   key={image.id}
                 >
                   <img

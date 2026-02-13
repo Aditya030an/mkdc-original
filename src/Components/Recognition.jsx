@@ -91,7 +91,7 @@ const Recognition = () => {
   ];
 
   return (
-    <div className="bg-black text-white py-20 px-5">
+    <div className="bg-white text-black py-20 px-5">
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-start bg-transparent   ">
 
         {/* LEFT SIDE */}
@@ -137,8 +137,8 @@ const Recognition = () => {
                 }}
                 className="text-lg flex gap-3 bg-transparent"
               >
-                <span className="font-semibold text-white bg-transparent">{item.year}</span>
-                <span className="text-white/80 bg-transparent">{item.name}</span>
+                <span className="font-semibold text-black bg-transparent">{item.year}</span>
+                <span className="text-black/80 bg-transparent">{item.name}</span>
               </motion.li>
             ))}
           </ul>
