@@ -129,9 +129,9 @@ const Work = () => {
       <main className="flex-1 px-6 md:px-0 bg-white ">
         {/* Sections */}
         <section ref={housesRef} className="mb-16 bg-white">
-          {/* <h1 className="text-center text-lg font-semibold tracking-widest text-white mb-6 bg-black">
+          <h1 className="text-center text-lg font-semibold tracking-widest text-black mb-6 bg-white">
             HOUSES
-          </h1> */}
+          </h1>
            <ExpandCards items={houses} />
         </section>
 
